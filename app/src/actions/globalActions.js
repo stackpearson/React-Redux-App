@@ -12,7 +12,7 @@ export const fetchGlobalCases = () => dispatch => {
             console.log('global call', res);
             dispatch ({
                 type: FETCHING_SUCCEEDED,
-                payload: res
+                payload: res.data.Global
             });
         })
         .catch(err => {

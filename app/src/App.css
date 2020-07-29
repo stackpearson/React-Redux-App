@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  color: white;
+}
+
+.case-button {
+  margin: 15px;
+  background-color: grey;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.case-button:hover {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
+.case-numbers {
+  color:red;
+}
+
+.error {
+  padding-top: 250px;
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.global-cases {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.global-cases h3 {
+  color: white;
+}
+
+.new-cases, .total-cases {
+  border: 2px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+
+html {
+  background-color: #282c34;
+}
